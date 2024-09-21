@@ -316,6 +316,7 @@ ul{
 }
 
 ul li a{
+    
     font-size: .8em;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -393,21 +394,37 @@ ul li a{
     /* DERECHOS DE AUTOR */
 
     #copyFooter{
-
+        
         margin-top: 3rem;
         color: white;
         text-align: center;
         font-size: .9rem;
+   
     }
 
     #copyFooter p{
 
-        display: block;
+
         text-decoration: none;
         color:rgb(255, 255, 255);
         margin-bottom:10px;
+    
 
     }
+
+    #copyFooter a{
+        color: var(--colorMainUno);
+   
+    }
+
+
+    #designVevo{
+       font-size: .8rem;
+    }
+
+
+
+
 
 @media screen and (min-width:768px){
 
@@ -809,9 +826,7 @@ ul li a{
 }
 
 #copyFooter a{
-    display: block;
 
-    color:rgb(221, 221, 221);
     margin-bottom:10px;
 }
 
@@ -880,5 +895,6 @@ right: 36px;
 
 
 }
+
     
 }
